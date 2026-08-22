@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    color: blue;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #111111;
+    background-color: #ffffff;
+}
+
+.encabezado {
+    width: 100%;
+    border-bottom: 1px solid #dddddd;
+    background-color: #ffffff;
+}
+
+footer {
+    background-color: rgb(115, 166, 198);
+    color: black;
+}
