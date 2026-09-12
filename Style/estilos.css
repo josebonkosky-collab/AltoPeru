@@ -1,12 +1,26 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0;font-family: Arial, Helvetica, sans-serif;
+    color: #111111;
+    background-color: #ffffff;
     box-sizing: border-box;
 }
 
-p {
-    color: blue;
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.1;
 }
+
+h1 span {
+    color: #0b5c38;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
 
 body {
     margin: 0;
@@ -20,8 +34,60 @@ body {
     border-bottom: 1px solid #dddddd;
     background-color: #ffffff;
 }
-
+.bienvenida {
+    display: inline-block;
+    background-color: #e6f2eb;
+    color: #0b5c38;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 6px 12px;
+    border-radius: 15px;
+}
+.imagen-principal {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 18px;
+}
 footer {
     background-color: rgb(115, 166, 198);
     color: black;
+}
+.inicio-slider {
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.inicio-imagen-slider {
+    height: 430px;
+    object-fit: cover;
+    filter: brightness(55%);
+}
+
+.inicio-texto-slider {
+    left: 7%;
+    right: 38%;
+    bottom: 40px;
+    text-align: left;
+}
+
+.inicio-texto-slider h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.inicio-texto-slider p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.inicio-etiqueta-slider {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: #08633d;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: 700;
 }
