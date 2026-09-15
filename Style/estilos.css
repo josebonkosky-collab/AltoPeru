@@ -34,6 +34,8 @@ body {
     border-bottom: 1px solid #dddddd;
     background-color: #ffffff;
 }
+
+
 .bienvenida {
     display: inline-block;
     background-color: #e6f2eb;
@@ -51,7 +53,7 @@ body {
 }
 footer {
     background-color: rgb(115, 166, 198);
-    color: black;
+    color: #ffffff;
 }
 .inicio-slider {
     overflow: hidden;
@@ -86,7 +88,7 @@ footer {
     margin-bottom: 10px;
     padding: 5px 10px;
     background-color: #08633d;
-    color: #ffffff;
+    color: white;
     border-radius: 5px;
     font-size: 11px;
     font-weight: 700;
